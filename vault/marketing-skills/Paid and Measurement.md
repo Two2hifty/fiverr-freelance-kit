@@ -26,10 +26,20 @@ Plan, launch, and optimize paid campaigns on Google, Meta, LinkedIn, Twitter/X, 
 - Ideal customer profile
 - Existing customer data for lookalikes
 
+### Ad copy frameworks
+- **Problem-Agitate-Solve (PAS)**: Name the problem. Make it feel urgent. Present your product as the solution.
+- **Before-After-Bridge (BAB)**: Show life before your product. Show life after. Bridge the gap with your product.
+- **Social Proof Lead**: Start with a customer result, then explain how it happened.
+
 ### Campaign structure best practice
 - One campaign per objective
 - One ad set per audience segment
 - Multiple ad variations per ad set (3 to 5 minimum for testing)
+
+### Retargeting strategy
+- **Warm audience** (visited site, viewed product): direct offer with urgency
+- **Hot audience** (started trial, abandoned cart): remove the friction that stopped them
+- **Past customers**: upsell or win-back with a specific reason to return
 
 ### Budget guidance for beginners
 - $150 to $300/month minimum per platform to generate meaningful data
@@ -135,10 +145,18 @@ Before running a test, calculate required sample size:
 - Statistical significance: 95% confidence (standard)
 - Use tools: Evan Miller's sample size calculator
 
+### Metrics to define before running
+- **Primary metric**: the one number that determines winner (conversion rate, revenue per visitor)
+- **Secondary metrics**: supporting signals to check (bounce rate, time on page)
+- **Guardrail metrics**: things that must not get worse (signup rate, NPS, load time)
+
 ### Test duration
 - Run for at least 2 full business cycle weeks
 - Never call a test based on day-of-week bias
 - Stop when sample size is met and significance is reached
+
+### Hypothesis format
+"Changing [X] to [Y] will increase [primary metric] because [reason based on data or behavior]."
 
 ### Related
 - For tracking implementation: `/analytics-tracking`

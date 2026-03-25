@@ -45,13 +45,31 @@ Optimize content to be cited by AI search engines: Google AI Overviews, ChatGPT,
 - What content types do you produce?
 - What's your domain authority?
 
-### Core optimization principles
-- Write direct, factual answers to specific questions
-- Use clear headings that match search queries
-- Structure content with FAQ format where relevant
+### Three pillars of AI SEO
+
+**1. Structure** (make content extractable)
+- Write direct, factual answers at the top of each section
+- Use clear H2 and H3 headings that match query language
+- Use FAQ format where relevant
+- Keep sentences short and scannable
+- Use numbered lists and bullet points for steps and lists
+
+**2. Authority** (make content citable)
 - Include structured data (see `/schema-markup`)
-- Build topical authority by covering a subject comprehensively
 - Get cited on authoritative external sites
+- Build topical authority by covering a subject end-to-end
+- Link to primary sources and studies
+
+**3. Presence** (be where AI looks)
+- Ensure AI crawlers are not blocked in robots.txt
+- Build brand mentions across forums, reviews, and directories
+- Maintain accurate profiles on sites AI systems use as sources (Wikipedia, Crunchbase, LinkedIn)
+
+### Content type guidance
+- **SaaS product pages**: emphasize use-case clarity, comparison language, and outcome specifics
+- **Blog content**: lead with a direct answer, then expand
+- **Comparison pages**: structured tables with factual data, not marketing language
+- **Documentation**: step-by-step format, code examples, specific commands
 
 ### Related
 - For traditional SEO: `/seo-audit`
@@ -63,12 +81,19 @@ Optimize content to be cited by AI search engines: Google AI Overviews, ChatGPT,
 
 Build SEO-optimized pages at scale using templates and data.
 
-### Common use cases
-- Location pages: "[Service] in [City]"
-- Comparison pages: "[Product A] vs [Product B]"
-- Integration pages: "[Your tool] + [Partner tool]"
-- Directory pages: "[Category] companies in [Location]"
-- Alternative pages: "Best [Competitor] alternatives"
+### The 12 playbooks
+1. **Templates**: pre-built templates for common tasks your audience does
+2. **Curation**: curated lists of tools, resources, or examples
+3. **Conversions**: unit conversion or calculation tools (e.g., currency, time zones)
+4. **Comparisons**: "[A] vs [B]" pages at scale
+5. **Examples**: "[Type] examples" pages (e.g., "email subject line examples")
+6. **Locations**: "[Service] in [City]" or "[Job] in [City]"
+7. **Personas**: "[Role] + [outcome]" pages (e.g., "CRM for real estate agents")
+8. **Integrations**: "[Tool A] + [Tool B]" pages
+9. **Glossary**: definitions for every term in your industry
+10. **Translations**: content translated for foreign-language search markets
+11. **Directory**: listings of companies, tools, or people in a category
+12. **Profiles**: public pages for users, companies, or entities
 
 ### What it asks
 - What search patterns exist for your audience?

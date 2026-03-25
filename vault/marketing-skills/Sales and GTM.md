@@ -24,6 +24,13 @@ Design and optimize the systems connecting marketing, sales, and customer succes
 - Lead scoring model: how do you score behavior and firmographics?
 - Lead routing: who gets which leads and how fast?
 
+**Lead scoring dimensions:**
+- Firmographic fit: company size, industry, geography (0 to 20 points)
+- Role fit: decision-maker vs. influencer vs. end user (0 to 20 points)
+- Behavioral intent: page visits, content downloads, pricing page view (0 to 40 points)
+- Engagement: email opens, replies, event attendance (0 to 20 points)
+- Score threshold: typically 60 to 80 out of 100 to become MQL
+
 **Speed-to-lead:**
 - 78% of buyers go with the first vendor to respond
 - Target: less than 5 minutes from form submit to first contact
@@ -49,6 +56,18 @@ Design and optimize the systems connecting marketing, sales, and customer succes
 ## Sales Enablement `/sales-enablement`
 
 Create collateral that helps sales teams close deals.
+
+### 10 to 12 slide pitch deck framework
+1. Problem: the pain your buyer recognizes
+2. Why now: what makes this urgent
+3. Solution: what you do (one sentence)
+4. How it works: 3-step flow or product visual
+5. Key features: 3 to 4 benefits, not features
+6. Proof: customer logos, quote, or case study result
+7. Differentiation: why not [competitor] or [status quo]
+8. Pricing: tier overview or starting price
+9. Team: credibility signals relevant to the buyer
+10. Next steps: one clear ask
 
 ### Asset types
 

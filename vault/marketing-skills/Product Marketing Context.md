@@ -29,14 +29,19 @@ The skill checks `.agents/product-marketing-context.md`. If it exists, it summar
 1. **Auto-draft from codebase** (recommended): Reads your README, landing pages, marketing copy, and package.json. Drafts all sections. You review and correct.
 2. **Start from scratch**: Walks through each section one at a time.
 
-### Sections captured
-- Product overview (one-liner, what it does, product category, type)
-- Target audience and ICP
-- Key problems solved
-- Positioning and differentiators
-- Pricing model
-- Brand voice and tone
-- Customer language (verbatim phrases from reviews, support tickets)
+### All 12 sections captured
+1. **Product Overview**: one-liner, what it does, product category, product type
+2. **Target Audience**: demographics, firmographics, buying triggers
+3. **Personas**: named profiles for each key buyer type
+4. **Problems and Pain Points**: ranked by severity and frequency
+5. **Competitive Landscape**: direct and indirect competitors, how you position against each
+6. **Differentiation**: what makes you meaningfully different (not just "better")
+7. **Objections and Anti-Personas**: who is NOT a good fit, common hesitations
+8. **Switching Dynamics**: what makes people switch to you, what makes them leave
+9. **Customer Language**: verbatim phrases from reviews, interviews, support tickets
+10. **Brand Voice**: tone descriptors, dos and don'ts, sample sentences
+11. **Proof Points**: metrics, case studies, testimonials, logos
+12. **Goals**: what success looks like for this product in 6 to 12 months
 
 ---
 

@@ -39,13 +39,13 @@ Improve existing copy through seven sequential passes.
 
 ### The Seven Sweeps Framework
 Each pass focuses on one dimension only:
-1. Clarity sweep — cut confusion
-2. Brevity sweep — cut words
-3. Specificity sweep — replace vague with concrete
-4. Voice sweep — match brand tone
-5. Benefit sweep — flip features to outcomes
-6. CTA sweep — sharpen calls to action
-7. Final read — catch anything missed
+1. **Clarity** — cut anything that causes confusion or requires re-reading
+2. **Voice and Tone** — match the brand's established tone throughout
+3. **So What** — every claim must answer "why should the reader care?"
+4. **Prove It** — replace assertions with evidence, numbers, specifics
+5. **Specificity** — replace vague words with concrete details
+6. **Heightened Emotion** — sharpen the emotional pull at key moments
+7. **Zero Risk** — reduce friction and perceived risk around the CTA
 
 ### Key principle
 Do not rewrite. Enhance. Each edit needs a clear reason.
@@ -103,6 +103,22 @@ Write B2B outreach emails and follow-up sequences that get replies.
 - One ask per email
 - Low-friction CTA (15 minutes, not "jump on a call")
 
+### Cold email structure (Observation, Problem, Proof, Ask)
+1. **Observation**: a specific, researched detail about them or their business
+2. **Problem**: the problem that detail connects to (their problem, not your pitch)
+3. **Proof**: one result or credibility signal relevant to their situation
+4. **Ask**: one low-friction next step
+
+### Subject line rules
+- Short and specific. 4 to 6 words.
+- Internal-looking beats promotional. "Quick question" outperforms "Increase revenue 40%."
+- Never use clickbait. It trains people not to open your follow-ups.
+
+### Voice calibration by audience
+- Technical buyer (engineers, architects): direct, no fluff, proof-first
+- Business buyer (VP, Director): outcome and ROI focused
+- Executive (C-suite): short, strategic, peer tone
+
 ### Related
 - For warm/lifecycle emails: `/email-sequence`
 - For sales collateral: `/sales-enablement`
@@ -130,6 +146,19 @@ Build around 3 to 5 pillars that align with your expertise and your audience's i
 - Direct offer (CTA posts)
 - Engagement (questions, opinions)
 
+### Hook formulas
+- **Curiosity**: "Most [audience] don't know this about [topic]..."
+- **Story**: "6 months ago I was [relatable struggle]. Here's what changed."
+- **Value**: "Here are 5 [specific things] that [specific outcome]."
+- **Contrarian**: "Everyone says [common belief]. They're wrong."
+
+### Content repurposing system
+One long-form piece generates:
+- 1 LinkedIn carousel (key points as slides)
+- 1 Twitter/X thread (each section = one tweet)
+- 3 to 5 short-form video scripts (one insight each)
+- 1 email newsletter (angle: what you learned writing it)
+
 ### Related
 - For broader content planning: `/content-strategy`
 - For social paid campaigns: `/paid-ads`
@@ -143,6 +172,22 @@ Plan what content to produce and why.
 ### Two content types
 1. **Searchable**: Targets keywords. Drives organic traffic. Compounds over time.
 2. **Shareable**: Gets distributed by audience. Builds brand and authority.
+
+### Content types by name
+- **Use-Case content**: "How [audience] uses [product] to [outcome]"
+- **Hub and Spoke**: one pillar page with many supporting articles linking back
+- **Template Libraries**: resources your ICP needs, branded to you
+- **Thought Leadership**: original opinions and data-backed takes
+- **Data-Driven**: original research, surveys, industry benchmarks
+- **Expert Roundups**: curated perspectives from credible voices
+- **Case Studies**: proof that your product works, in the customer's voice
+- **Meta Content**: content about content (e.g., "how we grew our blog")
+
+### Keyword research by buyer stage
+- **Awareness**: "What is [problem]" — high volume, low conversion
+- **Consideration**: "Best [solution category]," "How to solve [problem]" — medium volume, medium conversion
+- **Decision**: "[Your product] review," "[Your product] vs [Competitor]" — low volume, high conversion
+- **Implementation**: "How to use [feature]" — existing customer retention
 
 ### What it asks
 - Business goals for content (traffic, leads, thought leadership)
