@@ -52,6 +52,7 @@ tags: [school, film, literature]
 | Assignment | Due Date | Status | Note |
 |---|---|---|---|
 | [[THOMS Journal Entry 1]] | 2026-03-30 | in progress | Unit 1 — prompt #1 |
+| [[Textual Evidence for Suspense in Writing]] | TBD | not started | Quotes + analysis from *20th Century Ghosts* |
 
 ---
 
