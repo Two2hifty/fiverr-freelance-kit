@@ -1,5 +1,6 @@
 # Claude Code internal files
-.claude/
+.claude/settings.local.json
+.claude/todos/
 
 # Obsidian workspace state (machine-specific)
 .obsidian/workspace.json
