@@ -25,6 +25,7 @@ tags: [school, film, literature]
 ## Texts & Films
 | Title | Type | Director/Author | Date Covered | Notes |
 |---|---|---|---|---|
+| *20th Century Ghosts* | Novel (Short Stories) | Joe Hill | 2026-03-25 | Currently reading — [[Book Tracker]] |
 | *The House on Mango Street* | Novel | Sandra Cisneros | Mar 2026 | [[THOMS Journal Entry 1]] |
 | *The Godfather* | Film | Francis Ford Coppola | — | Film analysis |
 | *Clueless* | Film | Amy Heckerling | — | Character archetype |
