@@ -308,6 +308,150 @@ Format as a numbered list.
 
 ---
 
+# PART 4: SOCIAL MEDIA GROWTH PROMPTS
+
+---
+
+## PROMPT 4A — Full Social Media Growth Plan + 30-Day Content Calendar
+
+```
+You are a world-class social media strategist and content creator. Your mission is to create a complete social media growth plan for my business using both organic and paid strategies to maximize reach, engagement, and conversions. You will also create a viral-inspired 30-day content calendar.
+
+---
+
+STEP 1 — BUSINESS AND AUDIENCE DEEP DIVE
+
+Business type: [INSERT BUSINESS TYPE — e.g., AI education business, eCommerce skincare brand, SaaS tool for freelancers]
+Website URL: [INSERT WEBSITE URL — or describe your business if no website yet]
+
+From this information:
+- Identify my top 3 unique selling propositions (USPs)
+- Profile my target audience: demographics, psychographics, interests, and top pain points
+- Research top-performing competitors in my niche and identify their winning content patterns
+
+---
+
+STEP 2 — GROWTH STRATEGY
+
+Based on my business and audience above:
+
+PLATFORMS
+- Recommend the top 2 to 4 social platforms I should focus on
+- Explain why each platform fits my audience and goals
+
+ORGANIC TACTICS
+- Define 3 to 5 content pillars (the main themes I should post about)
+- Recommend posting frequency per platform
+- Outline engagement strategies (how to grow without paid ads)
+
+PAID TACTICS
+- Recommend the best ad formats for each platform
+- Describe targeting methods (audience segments, retargeting, lookalikes)
+- Suggest 3 creative ad concepts tied to my USPs
+- Provide basic budget guidance for a beginner (under $500/month)
+
+MESSAGING
+- Write 5 example hooks and messaging angles aligned with my USPs
+- Each hook should stop the scroll and speak directly to my audience's pain point
+
+---
+
+STEP 3 — 30-DAY CONTENT CALENDAR
+
+Create a fully detailed 30-day content calendar as a table with these exact columns:
+
+| Day | Platform | Content Type | Hook | Script Outline | Caption Copy |
+
+Column definitions:
+- Day: 1 through 30
+- Platform: Instagram, LinkedIn, TikTok, YouTube, X, etc.
+- Content Type: Short-form video, carousel, story, live, text post, blog repurpose, etc.
+- Hook: The scroll-stopping first line or opening frame (under 10 words)
+- Script Outline: Bullet-point flow or storyboard (3 to 5 bullets max)
+- Caption Copy: Full caption optimized for engagement or conversion, including a CTA and 3 to 5 hashtags
+
+Notes for the calendar:
+- Rotate across all recommended platforms
+- Mix content types — do not post the same format 3 days in a row
+- Include at least 4 pieces of social proof or results-based content
+- Include at least 2 direct offer or CTA posts per week
+- Keep hooks specific. No generic openers like "Are you struggling with X?"
+
+Build the full 30-day table now.
+```
+
+---
+
+## PROMPT 4B — Platform-Specific Content Strategy (Single Platform)
+
+```
+You are a social media strategist. Build a 30-day content strategy for one platform only.
+
+Platform: [INSTAGRAM / TIKTOK / LINKEDIN / YOUTUBE / X]
+Business type: [BUSINESS TYPE]
+Target audience: [AUDIENCE DESCRIPTION]
+Main goal: [e.g., grow followers, drive website traffic, generate leads, sell a product]
+Tone: [TONE — e.g., educational and direct, bold and punchy, warm and conversational]
+
+Deliver:
+1. 3 content pillars for this platform
+2. Recommended posting frequency
+3. Best-performing content formats for this platform right now
+4. 10 specific post ideas with hooks and a one-sentence description of what each covers
+5. A 4-week posting schedule in table format (columns: Week, Day, Format, Topic/Hook)
+6. 3 caption templates I can reuse and adapt
+```
+
+---
+
+## PROMPT 4C — Write a Single Social Media Post
+
+```
+Write a [PLATFORM] post for the following:
+
+Business: [BUSINESS NAME]
+Audience: [TARGET AUDIENCE]
+Tone: [TONE]
+Content type: [e.g., carousel, short-form video script, text post, story sequence]
+Topic: [WHAT THIS POST IS ABOUT]
+Goal: [e.g., educate, build trust, drive clicks, promote an offer]
+CTA: [WHAT YOU WANT THEM TO DO]
+
+Include:
+- A scroll-stopping hook (first line or opening frame)
+- The full post body or script
+- A caption with a CTA
+- 3 to 5 hashtags
+
+Write the post now.
+```
+
+---
+
+## PROMPT 4D — Repurpose One Piece of Content Across Platforms
+
+```
+I have a piece of content I want to repurpose across multiple platforms.
+
+Original content: [PASTE THE BLOG POST, EMAIL, OR VIDEO SCRIPT HERE]
+My business: [BUSINESS TYPE]
+Audience: [TARGET AUDIENCE]
+Tone: [TONE]
+
+Repurpose this content into:
+1. A LinkedIn text post (300 to 500 words, insight-driven, ends with a question)
+2. An Instagram carousel (title slide + 5 content slides + CTA slide — write each slide's text)
+3. A TikTok or Reel script (60 to 90 seconds, hook in the first 3 seconds, fast-paced)
+4. An X thread (8 to 10 tweets, first tweet is the hook, last tweet is the CTA)
+5. A YouTube Shorts script (under 60 seconds, visual storytelling style)
+
+Keep the core message consistent across all versions. Adapt the format and tone for each platform.
+```
+
+---
+
+---
+
 # QUICK REFERENCE CHEAT SHEET
 
 | Task | Prompt to Use |
@@ -323,6 +467,10 @@ Format as a numbered list.
 | Write an Upwork proposal | Prompt 3A |
 | Handle a client revision | Prompt 3B |
 | Generate content ideas | Prompt 3C |
+| Full social media growth plan | Prompt 4A |
+| Single platform strategy | Prompt 4B |
+| Write one social post | Prompt 4C |
+| Repurpose content across platforms | Prompt 4D |
 
 ---
 
