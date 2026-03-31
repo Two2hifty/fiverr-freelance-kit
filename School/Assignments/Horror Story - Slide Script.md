@@ -1,35 +1,26 @@
 ---
-title: The Last Showing – Google Slides Script
+title: The Last Showing – Full Slide Script
 subject: Film and Literature
 tags: [school, film-and-literature, creative-writing, horror, presentation]
 status: in progress
 ---
 
-# The Last Showing — Slide Script
+# The Last Showing — Full Slide Script
 
-*Copy each slide section into its own Google Slide*
-
----
-
-### Characters
-- **Marcus Webb** — 17, quiet kid, goes to movies alone when he can't sleep. Lost his older brother Darius six months ago. Still hasn't really talked about it.
-- **Ellie** — the woman in the yellow dress. Died in 1974 in Theater 7 during a fire that the theater covered up. She's not mean. She's just been waiting a long time.
-- **The Usher** — only appears briefly in the hallway. Doesn't speak. Uniform is fifty years out of style.
+Each section below = one slide. Copy everything under "PASTE THIS" into your slide.
 
 ---
 
 ---
 
-## SLIDE 1 — Title Slide
+## SLIDE 1 — Title
 
-**Title:**
+---
+PASTE THIS:
+
 The Last Showing
 
-**Subtitle:**
-*A horror story*
-
-**Bottom credit line:**
-Written by Somya Chaniyara
+A horror story by Somya Chaniyara
 
 ---
 
@@ -37,29 +28,30 @@ Written by Somya Chaniyara
 
 ## SLIDE 2 — Scene 1: The Empty Parking Lot
 
-**Slide Title:**
-Scene 1: 11:47 PM
+---
+PASTE THIS:
 
-**Body Text:**
-Marcus had been driving for forty minutes before he ended up at the Regal.
+Scene 1: The Empty Parking Lot
 
-He didn't plan it. That's how it had been since Darius died — he'd get in the car meaning to go somewhere, and wind up somewhere else entirely, like his hands on the wheel had their own ideas about where he needed to be.
+Marcus had been driving for forty minutes before he ended up at the Regal Cinema.
 
-The marquee was still lit. *HOLLOW GROUND — MIDNIGHT SHOWING.* White bulbs buzzing against the cold November air.
+He didn't plan it. That's how it had been since his brother Darius died — he'd get in the car meaning to go somewhere, and wind up somewhere else entirely. Like his hands had their own ideas about where he needed to be.
 
-The parking lot was empty. Not just quiet — *wrong*. Like a held breath.
+The marquee was lit. HOLLOW GROUND — MIDNIGHT SHOWING. White bulbs buzzing against the cold.
 
-He texted his mom: *at the movies. home by 2.*
+The parking lot was empty. Not quiet-empty. Wrong-empty. Like a held breath.
+
+He texted his mom: "at the movies. home by 2."
 
 She wouldn't see it until morning. She hadn't been sleeping either.
 
-One shopping cart sat motionless in the middle of the asphalt, perfectly centered between the painted lines, like someone had placed it there on purpose.
+One shopping cart sat perfectly still in the middle of the asphalt. Dead center. No wind to explain it.
 
-Marcus stared at it for a second.
+Darius would've laughed at that, Marcus thought. Would've said the cart was just waiting for its shift to start.
 
-*Darius would've thought that was funny,* he thought. *Would've said the cart was waiting for its shift to start.*
+Marcus stared at it for a long second.
 
-He got out of the car.
+Then he got out of the car anyway.
 
 ---
 
@@ -67,35 +59,38 @@ He got out of the car.
 
 ## SLIDE 3 — Scene 2: The Lobby
 
-**Slide Title:**
+---
+PASTE THIS:
+
 Scene 2: The Lobby
 
-**Body Text:**
-The front doors opened before he touched them.
+The front doors opened before he touched them — slow and heavy, like something had leaned on them from inside.
 
-The lobby smelled like burnt popcorn and something underneath — something damp, like old wood or wet carpet. The concession stand was fully lit. The popcorn machine was running, kernels tumbling in lazy circles.
+The lobby smelled like burnt popcorn and something older underneath. Something damp. Like a basement after a flood.
+
+The concession stand was fully lit. The popcorn machine was running, kernels tumbling in lazy, endless circles.
 
 Nobody was behind the counter.
 
-*"Hello?"*
+"Hello?" Marcus called.
 
-His voice hit the marble floor and died. Nothing came back.
+His voice hit the marble floor and went flat. Nothing came back.
 
-He leaned over the counter, checked the back room. Empty. A half-eaten hot dog sat on a wrapper next to the register like someone had stepped away mid-bite and never came back.
+He leaned over the counter. Checked the back room. Empty. A half-eaten hot dog sat next to the register like whoever had been eating it had simply stopped existing mid-bite.
 
-He was about to pull out his phone when he saw the ticket on the glass.
+He was about to leave when he saw the ticket on the glass.
 
-Already torn. Already used. His name in red ink, handwritten — not printed.
+Already torn. Already used. His name handwritten in red ink — not printed. Handwritten.
 
-*Marcus Webb. Theater 7.*
+Marcus Webb. Theater 7.
 
-He picked it up. The ink smeared on his thumb.
+He picked it up. Red ink smeared across his thumb.
 
-*Still wet.*
+Still wet.
 
-He looked around the lobby. The popcorn machine kept turning. Somewhere deep in the building, he heard the faint creak of a door.
+He stood there a moment, ticket in hand, looking around the empty lobby. The popcorn machine kept turning. Somewhere deep in the building, he heard the slow creak of a door.
 
-He should have left. He knew that. He tucked the ticket into his jacket pocket and followed the sound.
+He should've left. He knew that. He tucked the ticket into his jacket pocket and walked toward the sound.
 
 ---
 
@@ -103,39 +98,38 @@ He should have left. He knew that. He tucked the ticket into his jacket pocket a
 
 ## SLIDE 4 — Scene 3: The Hallway
 
-**Slide Title:**
+---
+PASTE THIS:
+
 Scene 3: The Hallway
 
-**Body Text:**
-The carpet was dark red with a gold diamond pattern, and it swallowed every footstep. Marcus couldn't hear himself walk. The only sound was the low buzz of the wall sconces and, somewhere ahead, that slow creaking.
+The hallway carpet was dark red with a gold diamond pattern, and it swallowed every footstep whole. Marcus couldn't hear himself walk.
 
-He passed Theater 4. The door was cracked. Inside, a screen blazed with static — gray-white hiss, lighting up two hundred empty seats from floor to ceiling. The light pulsed slightly, like a heartbeat.
+He passed Theater 4. The door was cracked open. Inside, a screen blazed with white-gray static — floor to ceiling, lighting up two hundred empty seats. The light pulsed slowly. Like a heartbeat.
 
-He kept going.
+At the far end of the hall, a man in an usher's uniform stood facing the wall. Old-style uniform — red, with gold buttons and a little pillbox hat. The kind nobody had worn since the 1960s.
 
-A man in a red usher's uniform stood at the far end of the hall. Old-style uniform — the kind with gold buttons and a pill-box hat. He was facing the wall.
+"Excuse me," Marcus said. "Is this theater still open?"
 
-*"Excuse me?"*
+The usher didn't move.
 
-The usher didn't turn around.
-
-Marcus gave him a wide berth. He counted the doors as he passed.
+Marcus gave him a wide berth and kept walking.
 
 Theater 5. Theater 6.
 
 He glanced back. The usher was gone.
 
-He looked forward. The hallway stretched ahead of him — longer than it should have been, longer than the building could possibly allow.
+He looked forward.
 
 Theater 6. Theater 6. Theater 6.
 
-*That's not right.*
+"That's — wait."
 
-He stopped walking. He turned around slowly.
+He stopped. He turned around slowly.
 
-Every door behind him was open. Every theater dark inside, and from each dark room, the faint blue light of a screen — all of them playing the same gray static. In the shifting light, for just a second, he thought he saw shapes in the seats.
+Every door behind him was open. All of them, dark inside, and from every dark room came the faint blue flicker of a screen — all playing the same gray static. In the shifting light, he could just make out shapes in the seats. Still shapes. Quiet shapes.
 
-He ran.
+He didn't stop to look closer. He ran for the door at the end of the hall.
 
 ---
 
@@ -143,125 +137,150 @@ He ran.
 
 ## SLIDE 5 — Scene 4: Theater 7
 
-**Slide Title:**
+---
+PASTE THIS:
+
 Scene 4: Theater 7
 
-**Body Text:**
-The door to Theater 7 opened the moment his hand touched it, swinging inward like it had been waiting.
+The door swung open before he touched it.
 
-The theater was full.
+Every seat was taken.
 
-Every seat taken. Men, women, children, elderly — packed shoulder to shoulder, perfectly still, all facing the blank white screen. No rustling. No whispers. No phones. Just the slow curl of their breath rising in the cold air, catching the light, disappearing.
+Men, women, children, elderly — packed in shoulder to shoulder, perfectly still. No rustling. No whispering. No phones out. They all faced the blank white screen, hands in their laps, breath rising in the cold air in small slow curls before dissolving.
 
-Marcus stood in the doorway. His legs had stopped listening to him.
+Marcus stood frozen in the doorway.
 
-There was one empty seat. Middle row. Dead center. Like a gap in a jaw where a tooth used to be.
+There was one empty seat. Middle row. Dead center. Like a missing tooth.
 
-*Don't sit down. Walk back out. Walk out right now.*
+Don't sit down, he told himself. Don't sit down. Walk back out.
 
 He sat down.
 
-The woman to his left was wearing a yellow dress — vintage, 1970s, the kind with a wide collar and flutter sleeves. Her dark hair was pinned up. She had her hands folded in her lap and she was staring at the blank screen like something was already happening on it.
+The woman to his left was wearing a yellow dress — vintage, 1970s, wide collar, flutter sleeves. Her dark hair was pinned up. She was staring at the blank screen like something was already happening on it.
 
-*"I don't think there's supposed to be a midnight showing tonight,"* Marcus said. His voice came out smaller than he meant it to.
+"I don't think there's supposed to be a showing tonight," Marcus said quietly.
 
-She turned and looked at him. Her face was pale — not sickly, just pale, the way things get when they haven't seen sun in a very long time. She smiled. Her teeth were too many and too long, but somehow her smile was still kind.
+She turned and looked at him. Her face was pale — not sick-pale, just pale, the way things get after years without sunlight. She smiled. Her teeth were too many and too long, but her smile was somehow still kind.
 
-*"There's always a showing,"* she said. *"For people who need somewhere to be."*
+"There's always a showing," she said. "For people who need somewhere to be."
 
 She looked back at the screen.
 
-*"I'm Ellie,"* she added. *"I've been coming here since '74."*
+"I'm Ellie. I've been coming here since 1974."
 
-Before Marcus could ask what that meant, the lights went down.
+Marcus opened his mouth to ask what that meant.
+
+The lights went down.
 
 ---
 
 ---
 
-## SLIDE 6 — Scene 5: The Screen Turns On
+## SLIDE 6 — Scene 5: The Screen
 
-**Slide Title:**
+---
+PASTE THIS:
+
 Scene 5: The Screen
 
-**Body Text:**
-The movie that played was not *Hollow Ground.*
+The film that played was not Hollow Ground.
 
-It was this theater. Shot from a high corner angle — security camera style, black and white, wide enough to see every seat. Timestamp in the bottom right corner: **11:47 PM.**
+It was this theater. Shot from a high corner — security camera style, black and white. Wide angle. Every seat in Theater 7, empty and dark. Timestamp in the corner: 11:47 PM.
 
-All the seats were empty.
+Then the seats filled. Not with movement — they just filled, the way a room fills with cold air. One moment empty, the next: full. Every person sitting exactly where they were sitting now.
 
-Then they weren't.
+The camera zoomed in. Slowly. No cuts. Straight down the center aisle.
 
-The footage zoomed in. Slowly. Without cutting. Straight down the center aisle to the middle row, the dead-center seat.
+To the middle row.
 
-Marcus was in it. Already sitting there. Already wearing his jacket, his hood up, his hands on his knees — exactly the way he was sitting right now. On the screen. Forty minutes ago.
+To the dead-center seat.
 
-*"That's—"* He couldn't finish the sentence.
+To Marcus.
 
-*"You've been here longer than you think,"* Ellie said gently. *"Most people have."*
+He was already on the screen. His jacket, his hood up, his hands on his knees — exactly how he was sitting right now. The timestamp said 11:47 PM. That was forty minutes ago. Before he walked in. Before he found the ticket.
 
-*"I just got here."*
+"That's me," he whispered. "How is that me?"
 
-*"That's what it feels like."*
+"You've been here longer than you think," Ellie said. "Most people have."
 
-On screen, the Marcus-that-was turned his head and looked directly at the camera. Directly at him. His own face, looking back at him through a screen, eyes wide, like a warning. Like he'd been sitting in that seat long enough to learn something terrible and was trying to pass it back.
+"I just got here."
 
-Ellie reached over and took his hand. Her fingers were ice all the way down to the bone.
+"That's what it feels like."
 
-*"My brother,"* Marcus said suddenly, not meaning to say it out loud. *"He died. Six months ago. Car accident."*
+On screen, the Marcus-on-film turned his head and looked straight up into the camera. Straight at him. Eyes wide. Like a warning. Like he'd learned something terrible and was trying to pass it back through the glass.
 
-*"I know,"* she said.
+Marcus's chest went tight. He didn't plan to say it. It just came out.
 
-*"Is he here? Is he—"*
+"My brother died. Six months ago. Car accident. His name was Darius." He paused. "Is he here?"
 
-She squeezed his hand once. It didn't feel cruel.
+Ellie was quiet for a moment. Then:
 
-*"Everyone finds their seat eventually."*
+"This theater has a lot of seats."
+
+"Is he HERE?"
+
+She reached over and took his hand. Her fingers were ice all the way down to the bone. She squeezed once — not cruel, not cold, just certain.
+
+"Everyone finds their seat eventually," she said.
+
+She didn't let go.
 
 ---
 
 ---
 
-## SLIDE 7 — Scene 6: The Exit That Isn't
+## SLIDE 7 — Scene 6: No Exit
 
-**Slide Title:**
+---
+PASTE THIS:
+
 Scene 6: No Exit
 
-**Body Text:**
-Marcus ran.
+Marcus yanked his hand free and ran.
 
-He didn't say anything to Ellie. He didn't look at the screen again. He bolted up the aisle, took the steps two at a time, and shoved through the exit door at the back of the theater.
+Down the aisle. Up the steps. He hit the exit door at the back with both palms and shoved through it hard.
 
 The lobby.
 
-Same lobby. Popcorn machine still turning. Hot dog still on the counter. His ticket in his jacket pocket, the ink on his thumb still wet.
+Same lobby. Popcorn machine still turning. Half-eaten hot dog still on the counter. His ticket still in his jacket, the ink still wet on his thumb.
 
-*No. No, no—*
+"No. No no no—"
 
-He sprinted for the front doors. They opened slowly, leaning outward, and he blew through them and his sneakers hit wet asphalt.
+He ran for the front doors. They opened slowly — leaning outward, patient — and he burst through into the parking lot.
 
 He stopped.
 
 His car was gone.
 
-The parking lot was empty except for the shopping cart, still dead-center under the marquee, perfectly placed, patient as a gravestone.
+The lot was empty except for the shopping cart, still dead-center under the marquee, still perfectly placed, like it had never moved and never would.
 
-He looked up at the sign. The letters had changed.
+He looked up at the sign.
 
-**MARCUS WEBB — NO EXIT — ALL SEATS FILLED**
+The letters had changed.
 
-He spun back toward the lobby doors. Already closed. Through the glass, barely visible in the dark, Ellie stood just inside — hands folded in front of her, yellow dress bright against the black. She wasn't smiling anymore. Her expression was something else. Something almost sad.
+MARCUS WEBB — NO EXIT — ALL SEATS FILLED
+
+He turned back. The lobby doors were already closed.
+
+Through the glass, barely visible in the dark, Ellie stood just inside. Hands folded. Yellow dress bright against the black. She wasn't smiling. Her expression was something else — something almost sad, the way someone looks when they've delivered bad news they've delivered many times before.
 
 She raised one hand. Not a wave. Just an acknowledgment.
 
-Marcus pressed both palms flat against the cold glass.
+Marcus pressed both palms against the cold glass.
 
-*"Let me out,"* he said. His breath fogged the door. *"Please. Let me out."*
+"Let me out," he said. His breath fogged the door. "Please. Please let me out."
 
-Ellie tilted her head. She said something — he couldn't hear it through the glass, but he could read it.
+Ellie tilted her head. She said something. He couldn't hear it through the glass, but he could read it on her lips.
 
-*You never came in.*
+You never came in.
+
+The marquee buzzed.
+
+The cart waited.
+
+Inside, a new ticket settled onto the counter with a new name written in red ink.
+
+The popcorn machine kept turning.
 
 ---
 
@@ -269,24 +288,13 @@ Ellie tilted her head. She said something — he couldn't hear it through the gl
 
 ## SLIDE 8 — The End
 
-**Title:**
-*— The End —*
+---
+PASTE THIS:
 
-**Body Text:**
-The marquee flickered once.
+— The End —
 
-Then it reset — white bulbs buzzing, calm and patient, the same way it had looked when he pulled in.
-
-*HOLLOW GROUND — MIDNIGHT SHOWING.*
-
-Somewhere inside, a new ticket sat on the glass counter with a new name written in red ink.
-
-The popcorn machine kept turning.
-
-The shopping cart waited.
-
-*"Everyone finds their seat eventually."*
-— Ellie, Theater 7, 1974–
+"Everyone finds their seat eventually."
+— Ellie, Theater 7, 1974
 
 ---
 
@@ -294,9 +302,9 @@ The shopping cart waited.
 
 ## Slide Design Notes
 
-- **Font:** Title slides → bold serif (Playfair Display or Merriweather). Body → clean sans-serif (Lato or Open Sans), 13–14pt
-- **Color palette:** Black background, white/off-white text, red accents for character names and the marquee text
-- **Dialogue formatting:** Put all spoken lines in *italics* on the slide so the audience can tell when someone's talking
-- **Images:** Use the Nanobana scene images as full-bleed slide backgrounds with a dark semi-transparent overlay (50–60% black) so the text stays readable
-- **Transitions:** Fade between all slides — slow, 0.5 seconds
-- **Pacing tip:** Don't rush reading — let each beat of dialogue land before moving on
+- Black background, white text throughout
+- All dialogue lines should be in italics so the audience knows when someone is speaking
+- Use the Nanobana scene images as full-bleed backgrounds with a dark overlay (around 60% opacity black) so the text stays readable
+- Font: bold serif for titles (Playfair Display works well), regular sans-serif for body text (Lato or Open Sans)
+- Transitions: Fade, 0.5 seconds between slides
+- Keep font size at 13–14pt for body text so it fits without crowding
