@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NBA Picks – April 4, 2026</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #0d0f14;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', sans-serif;
+      min-height: 100vh;
+      padding: 24px 16px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+    header h1 {
+      font-size: 2rem;
+      background: linear-gradient(90deg, #f7c948, #f97316);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 800;
+      letter-spacing: 1px;
+    }
+    header p { color: #888; font-size: 0.9rem; margin-top: 6px; }
+
+    /* Bankroll */
+    .bankroll-section {
+      background: #1a1d25;
+      border: 1px solid #2a2d38;
+      border-radius: 14px;
+      padding: 20px 24px;
+      max-width: 480px;
+      margin: 0 auto 32px;
+      text-align: center;
+    }
+    .bankroll-section label { font-size: 0.85rem; color: #aaa; display: block; margin-bottom: 8px; }
+    .bankroll-row { display: flex; align-items: center; justify-content: center; gap: 10px; }
+    .bankroll-row span { font-size: 1.4rem; color: #f7c948; font-weight: 700; }
+    .bankroll-row input {
+      background: #0d0f14;
+      border: 1px solid #3a3d4a;
+      border-radius: 8px;
+      color: #fff;
+      font-size: 1.3rem;
+      font-weight: 700;
+      padding: 6px 12px;
+      width: 110px;
+      text-align: center;
+      outline: none;
+    }
+    .bankroll-row input:focus { border-color: #f7c948; }
+
+    /* Picks grid */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 18px;
+      max-width: 1100px;
+      margin: 0 auto 32px;
+    }
+
+    .card {
+      background: #1a1d25;
+      border: 2px solid #2a2d38;
+      border-radius: 16px;
+      padding: 20px;
+      cursor: pointer;
+      transition: border-color 0.2s, transform 0.15s, box-shadow 0.2s;
+      position: relative;
+      user-select: none;
+    }
+    .card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,0.4); }
+    .card.selected {
+      border-color: #f7c948;
+      box-shadow: 0 0 20px rgba(247,201,72,0.2);
+    }
+    .card.selected .check { opacity: 1; }
+
+    .check {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      width: 24px; height: 24px;
+      background: #f7c948;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      opacity: 0;
+      transition: opacity 0.2s;
+      font-size: 13px;
+      color: #000;
+      font-weight: 900;
+    }
+
+    .card-top { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+    .avatar {
+      width: 46px; height: 46px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.3rem;
+      font-weight: 900;
+      flex-shrink: 0;
+    }
+    .card-name { font-size: 1rem; font-weight: 700; color: #fff; }
+    .card-team { font-size: 0.75rem; color: #888; margin-top: 2px; }
+
+    .badge {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    .over { background: rgba(34,197,94,0.15); color: #22c55e; border: 1px solid #22c55e44; }
+    .under { background: rgba(239,68,68,0.15); color: #ef4444; border: 1px solid #ef444444; }
+
+    .prop-line {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+    .prop-label { font-size: 0.78rem; color: #aaa; margin-bottom: 14px; }
+
+    /* Probability bar */
+    .prob-label {
+      display: flex; justify-content: space-between;
+      font-size: 0.75rem; color: #aaa; margin-bottom: 5px;
+    }
+    .prob-bar-bg {
+      background: #2a2d38;
+      border-radius: 99px;
+      height: 8px;
+      overflow: hidden;
+      margin-bottom: 14px;
+    }
+    .prob-bar-fill {
+      height: 100%;
+      border-radius: 99px;
+      transition: width 0.6s ease;
+    }
+
+    /* Payout info */
+    .payout-row {
+      display: flex; justify-content: space-between;
+      font-size: 0.8rem; color: #888;
+    }
+    .payout-row span:last-child { color: #f7c948; font-weight: 700; }
+
+    /* Parlay builder */
+    .builder {
+      background: #1a1d25;
+      border: 1px solid #2a2d38;
+      border-radius: 16px;
+      padding: 24px;
+      max-width: 700px;
+      margin: 0 auto 32px;
+    }
+    .builder h2 { font-size: 1.1rem; color: #f7c948; margin-bottom: 16px; font-weight: 700; }
+
+    .parlay-picks { margin-bottom: 18px; min-height: 40px; }
+    .parlay-pick-item {
+      display: flex; justify-content: space-between; align-items: center;
+      background: #0d0f14;
+      border-radius: 8px;
+      padding: 8px 14px;
+      margin-bottom: 6px;
+      font-size: 0.85rem;
+    }
+    .parlay-pick-item .remove-btn {
+      background: none; border: none; color: #ef4444;
+      cursor: pointer; font-size: 1rem; padding: 0 4px;
+    }
+    .empty-msg { color: #555; font-size: 0.85rem; text-align: center; padding: 10px 0; }
+
+    .stats-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px;
+      margin-bottom: 20px;
+    }
+    .stat-box {
+      background: #0d0f14;
+      border-radius: 10px;
+      padding: 14px;
+      text-align: center;
+    }
+    .stat-box .stat-val {
+      font-size: 1.4rem; font-weight: 800;
+    }
+    .stat-box .stat-lbl { font-size: 0.72rem; color: #777; margin-top: 4px; }
+    .stat-box.profit .stat-val { color: #22c55e; }
+    .stat-box.odds .stat-val { color: #f7c948; }
+    .stat-box.prob .stat-val { color: #60a5fa; }
+
+    /* Multiplier table */
+    .mult-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+    .mult-table th {
+      color: #888; font-weight: 600; text-align: left;
+      padding: 6px 10px; border-bottom: 1px solid #2a2d38;
+    }
+    .mult-table td { padding: 8px 10px; border-bottom: 1px solid #1e2130; }
+    .mult-table tr.active td { background: #1e2a1a; color: #22c55e; font-weight: 700; }
+    .mult-table td:last-child { text-align: right; color: #f7c948; font-weight: 700; }
+
+    .disclaimer {
+      text-align: center; color: #555; font-size: 0.72rem;
+      max-width: 700px; margin: 0 auto;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🏀 NBA Picks – April 4, 2026</h1>
+  <p>Tap picks to add to your Underdog parlay builder</p>
+</header>
+
+<!-- Bankroll -->
+<div class="bankroll-section">
+  <label>Starting Bankroll</label>
+  <div class="bankroll-row">
+    <span>$</span>
+    <input type="number" id="bankroll" value="20" min="1" max="10000" step="1" />
+  </div>
+</div>
+
+<!-- Picks -->
+<div class="grid" id="picksGrid"></div>
+
+<!-- Parlay Builder -->
+<div class="builder">
+  <h2>Parlay Builder</h2>
+  <div class="parlay-picks" id="parlayPicks">
+    <div class="empty-msg" id="emptyMsg">Select picks above to build your parlay</div>
+  </div>
+
+  <div class="stats-grid">
+    <div class="stat-box profit">
+      <div class="stat-val" id="statProfit">$0</div>
+      <div class="stat-lbl">Potential Profit</div>
+    </div>
+    <div class="stat-box odds">
+      <div class="stat-val" id="statMulti">—</div>
+      <div class="stat-lbl">Multiplier</div>
+    </div>
+    <div class="stat-box prob">
+      <div class="stat-val" id="statProb">—</div>
+      <div class="stat-lbl">Win Probability</div>
+    </div>
+  </div>
+
+  <table class="mult-table">
+    <thead>
+      <tr>
+        <th>Picks</th>
+        <th>Underdog Multiplier</th>
+        <th>Win Probability</th>
+        <th>Payout on Bankroll</th>
+      </tr>
+    </thead>
+    <tbody id="multTable"></tbody>
+  </table>
+</div>
+
+<p class="disclaimer">
+  For entertainment purposes. Always gamble responsibly. Past performance does not guarantee future results.
+  Odds and lines subject to change. Verify all lines on Underdog Fantasy before entering.
+</p>
+
+<script>
+  const picks = [
+    {
+      id: 1,
+      name: "Kevin Durant",
+      team: "Houston Rockets vs Utah Jazz",
+      emoji: "🔥",
+      color: "#7c3aed",
+      direction: "over",
+      line: "24.5",
+      stat: "Points",
+      prob: 57,
+      edge: 5.6,
+      note: "Proj: 28 pts | Jazz bottom-3 in opp. FG%"
+    },
+    {
+      id: 2,
+      name: "Anthony Edwards",
+      team: "MIN Timberwolves vs PHI 76ers",
+      emoji: "⚡",
+      color: "#059669",
+      direction: "over",
+      line: "26.5",
+      stat: "Points",
+      prob: 61,
+      edge: 7.2,
+      note: "Over in 5 straight | Sixers below avg defense"
+    },
+    {
+      id: 3,
+      name: "Precious Achiuwa",
+      team: "Sacramento Kings",
+      emoji: "💪",
+      color: "#dc2626",
+      direction: "over",
+      line: "13.5",
+      stat: "Points",
+      prob: 58,
+      edge: 4.8,
+      note: "14+ pts in 5 straight | 11+ shots in 9 of last 10"
+    },
+    {
+      id: 4,
+      name: "Coby White",
+      team: "Chicago Bulls",
+      emoji: "🎯",
+      color: "#d97706",
+      direction: "over",
+      line: "13.5",
+      stat: "Points",
+      prob: 60,
+      edge: 6.1,
+      note: "Highlighted as top Underdog value pick this week"
+    },
+    {
+      id: 5,
+      name: "Stephon Castle",
+      team: "San Antonio Spurs",
+      emoji: "🏰",
+      color: "#0284c7",
+      direction: "over",
+      line: "4.5",
+      stat: "Rebounds",
+      prob: 63,
+      edge: 8.3,
+      note: "Top Underdog pick 4/2 | Consistent rebounder"
+    },
+    {
+      id: 6,
+      name: "Anthony Edwards",
+      team: "MIN Timberwolves vs PHI 76ers",
+      emoji: "⚡",
+      color: "#059669",
+      direction: "over",
+      line: "5.5",
+      stat: "Assists",
+      prob: 55,
+      edge: 4.2,
+      note: "Philly below avg in assists allowed in March"
+    }
+  ];
+
+  const multipliers = [
+    { picks: 2, mult: 3 },
+    { picks: 3, mult: 6 },
+    { picks: 4, mult: 10 },
+    { picks: 5, mult: 20 },
+    { picks: 6, mult: 40 },
+  ];
+
+  let selected = new Set();
+
+  function getBankroll() {
+    return parseFloat(document.getElementById('bankroll').value) || 20;
+  }
+
+  function probColor(p) {
+    if (p >= 62) return '#22c55e';
+    if (p >= 57) return '#f7c948';
+    return '#f97316';
+  }
+
+  function renderCards() {
+    const grid = document.getElementById('picksGrid');
+    grid.innerHTML = picks.map(p => `
+      <div class="card ${selected.has(p.id) ? 'selected' : ''}" onclick="togglePick(${p.id})">
+        <div class="check">✓</div>
+        <div class="card-top">
+          <div class="avatar" style="background:${p.color}22; color:${p.color}; border: 2px solid ${p.color}44">${p.emoji}</div>
+          <div>
+            <div class="card-name">${p.name}</div>
+            <div class="card-team">${p.team}</div>
+          </div>
+        </div>
+        <span class="badge ${p.direction}">${p.direction.toUpperCase()}</span>
+        <div class="prop-line">${p.direction === 'over' ? '▲' : '▼'} ${p.line}</div>
+        <div class="prop-label">${p.stat}</div>
+        <div class="prob-label">
+          <span>Win Probability</span>
+          <span style="color:${probColor(p.prob)}">${p.prob}%</span>
+        </div>
+        <div class="prob-bar-bg">
+          <div class="prob-bar-fill" style="width:${p.prob}%; background: linear-gradient(90deg, ${probColor(p.prob)}, ${p.color})"></div>
+        </div>
+        <div class="payout-row">
+          <span>Edge</span><span>+${p.edge}%</span>
+        </div>
+        <div class="payout-row" style="margin-top:4px">
+          <span style="font-size:0.72rem; color:#666">${p.note}</span>
+        </div>
+      </div>
+    `).join('');
+  }
+
+  function togglePick(id) {
+    if (selected.has(id)) selected.delete(id);
+    else if (selected.size < 6) selected.add(id);
+    renderCards();
+    renderBuilder();
+  }
+
+  function renderBuilder() {
+    const container = document.getElementById('parlayPicks');
+    const emptyMsg = document.getElementById('emptyMsg');
+    const bankroll = getBankroll();
+    const selPicks = picks.filter(p => selected.has(p.id));
+
+    if (selPicks.length === 0) {
+      container.innerHTML = '<div class="empty-msg">Select picks above to build your parlay</div>';
+      document.getElementById('statProfit').textContent = '$0';
+      document.getElementById('statMulti').textContent = '—';
+      document.getElementById('statProb').textContent = '—';
+    } else {
+      container.innerHTML = selPicks.map(p => `
+        <div class="parlay-pick-item">
+          <span>${p.emoji} <strong>${p.name}</strong> — ${p.direction.toUpperCase()} ${p.line} ${p.stat}</span>
+          <span style="color:${probColor(p.prob)}; font-size:0.8rem">${p.prob}%</span>
+          <button class="remove-btn" onclick="removePick(event, ${p.id})">✕</button>
+        </div>
+      `).join('');
+
+      const n = selPicks.length;
+      const multRow = multipliers.find(m => m.picks === n);
+      const mult = multRow ? multRow.mult : null;
+      const combinedProb = selPicks.reduce((acc, p) => acc * (p.prob / 100), 1);
+      const payout = mult ? (bankroll * mult).toFixed(2) : null;
+      const profit = mult ? (bankroll * mult - bankroll).toFixed(2) : null;
+
+      document.getElementById('statProfit').textContent = profit ? `$${profit}` : 'N/A';
+      document.getElementById('statMulti').textContent = mult ? `${mult}x` : 'N/A';
+      document.getElementById('statProb').textContent = `${(combinedProb * 100).toFixed(1)}%`;
+    }
+
+    renderTable();
+  }
+
+  function removePick(e, id) {
+    e.stopPropagation();
+    selected.delete(id);
+    renderCards();
+    renderBuilder();
+  }
+
+  function renderTable() {
+    const bankroll = getBankroll();
+    const n = selected.size;
+    const tbody = document.getElementById('multTable');
+    const selPicks = picks.filter(p => selected.has(p.id));
+    const combinedProb = selPicks.length > 0
+      ? selPicks.reduce((acc, p) => acc * (p.prob / 100), 1)
+      : null;
+
+    tbody.innerHTML = multipliers.map(row => {
+      const payout = (bankroll * row.mult).toFixed(2);
+      const profit = (bankroll * row.mult - bankroll).toFixed(2);
+      // rough prob using avg 58% per pick
+      const estProb = Math.pow(0.58, row.picks) * 100;
+      const isActive = row.picks === n;
+      return `
+        <tr class="${isActive ? 'active' : ''}">
+          <td>${row.picks}-Pick ${isActive ? '← selected' : ''}</td>
+          <td>${row.mult}x</td>
+          <td>${isActive && combinedProb ? (combinedProb * 100).toFixed(1) : estProb.toFixed(1)}%</td>
+          <td>$${profit} profit</td>
+        </tr>
+      `;
+    }).join('');
+  }
+
+  document.getElementById('bankroll').addEventListener('input', () => {
+    renderBuilder();
+  });
+
+  // Init
+  renderCards();
+  renderTable();
+</script>
+</body>
+</html>
